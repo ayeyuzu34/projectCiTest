@@ -1,8 +1,9 @@
 name: yuzuKodHod
 
-on: build-test
-  runs-on: ubuntu-latest
-  steps:
+jobs: 
+  build-test
+    runs-on: ubuntu-latest
+    steps:
       - name: Checkout source code
         uses: actions/checkout@v3
 
