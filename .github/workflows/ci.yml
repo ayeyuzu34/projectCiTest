@@ -1,7 +1,7 @@
 name: yuzuKodHod
 
-jobs: 
-  build-test
+jobs:
+  build-test:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
