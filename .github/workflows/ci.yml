@@ -1,0 +1,14 @@
+name: yuzuKodHod
+
+on: build-test
+  runs-on: ubuntu-latest
+  steps:
+      - name: Checkout source code
+        uses: actions/checkout@v3
+
+      - name: Simulate Build
+        run: echo "Building project..."
+
+      - name: Simulate Test
+        run: echo "Running tests... ✅"
+
